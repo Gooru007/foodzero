@@ -1,0 +1,31 @@
+.reservation {
+  background: var(--grenGrey);
+  text-align: center;
+  padding: 237px 138px 254px;
+}
+
+.form__wrapper {
+  margin: 133px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
+}
+
+.form__input, ////поменять классы
+.form__persons,
+.form__time {
+  background: var(--grenGrey);
+  border: solid var(--black) 2px;
+  max-width: 516px;
+  width: 100%;
+  max-height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25em 1.7em;
+  span {
+    width: 30px;
+    height: 30px;
+    border: solid red 2px;
+  }
+}

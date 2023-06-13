@@ -1,0 +1,11 @@
+.btn {
+  text-transform: capitalize;
+  font-size: 32px;
+  font-family: "Rufina-Bold";
+  color: var(--white);
+  border: solid black 2px;
+  &--gren-dark {
+    background: var(--grenDarck);
+    padding: 0.63em 3em;
+  }
+}
